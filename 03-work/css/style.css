@@ -1,0 +1,55 @@
+.qw{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;	
+	font-family: Arial;
+	font-size: 18px;
+	background: url(../icon/back.jpg) no-repeat	;
+	background-size: 100% 100%;
+}
+.header{
+	width: 100%;	
+	height: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 40px;
+}
+a:hover{
+	font-weight: bold;
+	color: #000;
+}
+.footer{
+	width: 100%;	
+	height: 60px;
+}
+.wrapper{
+	width: 100%;
+	height: 460px;
+	padding: 50px 80px 40px 100px;
+}
+input{
+	width: 150px;
+	height: 50px;
+	border: none;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+input{
+	border-radius: 10px;
+	border-bottom: 1px solid #000;
+}
+button{
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	background: url(../icon/dot2.jpg) no-repeat;
+	background-size: 120px 30px;
+}

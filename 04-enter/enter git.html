@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>enter</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<a href="#"><img src="icon/logo.png"></a>
+		<a href="#">Home</a>
+		<a href="#">Homework</a>
+		<a href="#">Settings</a>
+		<a href="#"><img src="icon/av_64.png"></a>
+	</div>
+	<div class="aip">
+		<p>Settings</p>
+		<div class="ava"><span>AVATAR</span>
+			<form action="#" method="post" name="one" autocomplete="off">
+				<img src="icon/av_256.png">	
+				<input type="file" accept="image/*" id="pic" name="photo"></input>
+				<label for="pic">Choose photo</label>
+			</form>	
+		</div>
+		<div class="info"><span>STUDENT'S INFO</span>
+			<form action="#" method="post" name="two" autocomplete="off">
+				<input type="text" maxlength="16" placeholder="First name" required pattern="[A-Z][a-z]{3-16}"></input>
+				<input type="text" maxlength="16" placeholder="Last name" required pattern="[A-Z][a-z]{3-16}"></input>
+				<input type="email" maxlength="50" placeholder="Email" required name=""></input>
+				<input type="tel" placeholder="Phone number" required pattern="[0-9]{6-16}"></input>
+				<input type="text" maxlength="50" placeholder="Address" required pattern="[a-zA-z0-9 /\\@#$%&]"></input>
+				<input type="url" placeholder="FB link" required pattern="https:// .*"  size ="30"></input>
+				<input type="submit" value="Save changes" required></input>	
+			</form>						
+		</div>
+		<div class="pass"><span>CHANGE PASSWORD</span>
+			<form action="#" method="post" name="three" autocomplete="off">
+				<input type="password" maxlength="50" placeholder="Old password" required pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{12,}$"></input>
+				<input type="password" maxlength="50" placeholder="New password" required pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{12,}$"></input>
+				<input type="password" maxlength="50" placeholder="Repeat password" required pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{12,}$"></input>
+				<input type="submit" value="Change password" required></input>	
+			</form>
+		</div>	
+	</div>
+</body>
+</html>

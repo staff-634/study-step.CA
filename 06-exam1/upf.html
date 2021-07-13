@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Екзаменаційна робота</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/media2.css">
+</head>
+<body>
+	<input type="checkbox" id="hmt" class="click">
+	<label class="btn-menu" for="hmt"><span></span></label>
+	<div class="menu">
+		<h3>Company</h3>
+		<a href="exam.html">Dashboard</a>
+		<a href="upf.html">User profile</a>
+		<a href="#">Maps</a>
+		<a href="#">Notifications</a>
+		<a href="#">Support</a>		
+	</div>
+	<div class="dash">
+		<h3>User Profile</h3>		
+		<div class="stek">
+			<div class="stat">
+				<div>
+					<h3>Edit Profile</h3>
+					<p>Complete your profile</p>
+				</div>
+				<div>
+					<form action="#" method="post" name="form" autocomplete="off">
+						<div class="if">	
+							<div>
+								<label for="company">Company</label>
+								<input type="text" maxlength="36" id="company" required pattern="([a-zA-Z]| |/|\\|@|#|\$|%|&)+" title="example: Craft Foods Ukraine. Max contain 36 characters"></input>
+							</div>
+							<div>
+								<label for="user">Username</label>
+								<input type="text" maxlength="16" id="user" required pattern="([a-zA-Z]| |/|\\|@|#|\$|%|&)+" title="example: User1/@. The username can consist of 8-16 characters and contain letters, numbers and symbols."></input>
+							</div>
+							<div>
+								<label for="email">Email address</label>
+								<input type="email" required id="email" title="username@gmail.com"></input>								
+							</div>
+							<div>
+								<label for="first">First name</label>
+								<input type="text" maxlength="16" id="first" required pattern="([a-zA-Z])+" title="example: Taras. Max contain 16 characters"></input>
+							</div>
+							<div>
+								<label for="last">Last name</label>
+								<input type="text" maxlength="24" id="last" required pattern="([a-zA-Z])+" title="example: Shevchenko. Max contain 24 characters"></input>
+							</div>
+							<div>
+								<label for="address">Address</label>
+								<input type="text" maxlength="48" id="address" required pattern="([a-zA-Z0-9]| |/|.|,)+" title="example: Potomkinska St. 114. Max contain 48 characters"></input>
+							</div>
+							<div>
+								<label for="city">City</label>
+								<input type="text" maxlength="24" id="city" required pattern="([a-zA-Z])+" title="example: Mykolaiv"></input>
+							</div>
+							<div>
+								<label for="country">Country</label>
+								<input type="text" maxlength="24" id="country" required pattern="([a-zA-Z]| |/|\\|@|#|\$|%|&)+" title="example: Ukraine"></input>
+							</div>
+							<div>
+								<label for="code">Postal code</label>
+								<input type="text" maxlength="8" id="code" required pattern="[0-9]{4, 8}" title="example: 54000"></input>
+							</div>
+							<div>
+								<label for="me">About me</label>
+								<textarea id="me" cols="6" rows="2"></textarea>
+							</div>
+							<div><button type="submit">UPDATE PROFILE</button></div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="list">
+				<div><img src="icon/img1/page.jpg">
+					<p>CEO/CO-FOUNDER</p>
+					<h4>Alec Thompson</h4>
+					<p>Don`t be scared of the truth because we need to restart the human foundation in truth And i love you like Kanye loves Kanye i love Rick Owens' bed design but the back is ...</p>
+				</div>
+			</div>					
+		</div>
+		<footer>			
+			<a href="#">ABOUT</a>
+			<a href="#">BLOG</a>
+			<a href="#">LICENSES</a>
+			<span>2019 - made with love</span>
+		</footer>
+	</div>
+</body>
+</html>

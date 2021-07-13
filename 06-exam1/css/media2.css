@@ -1,0 +1,127 @@
+@media (max-width: 1000px) {
+.menu{
+  width: 22%;
+}
+.dash{
+  width: 78%;
+  margin-left: 22%;
+}
+.stek{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.stat{  
+  flex-basis: 100%;
+  margin: 40px 0px 40px 0px;
+}
+.list{
+  width: 100%;
+  order: -1; 
+  margin-left: 0;
+}
+.list img{
+  width: 25%;
+}
+}
+@media (max-width: 800px) {
+.btn-menu, .btn-menu span{
+  display: block; 
+ }
+.menu{
+  width: 27%;
+  margin-left: -27%;
+  transition: margin .2s;
+}
+.click:checked ~ .btn-menu {
+  left: 20%;
+}
+.click:checked ~ .menu {
+  margin-left: 0;
+}
+.click:checked ~ .btn-menu span{
+  background: url(../icon/img1/left.png) no-repeat center;
+  background-size: 16px 16px;
+}
+.dash{
+  width: 100%;
+  height: 100vh;
+  margin-left: 0;
+}
+.dash h3{  
+  padding-left: 55px;
+}
+.stat h3{  
+  padding-left: 0px;
+}
+}
+@media (max-width: 650px) {
+.menu{
+  width: 40%;
+  margin-left: -40%;
+}
+.click:checked ~ .btn-menu {
+  left: 30%;
+}
+.list> div:nth-child(1){
+  margin-top: -50px;
+}
+button{
+  height: 30px;
+  font-size: 0.6250em;
+}
+}
+@media (min-width: 420px) and (max-width: 500px) {
+.menu{
+  width: 50%;
+  margin-left: -50%;
+}
+.click:checked ~ .btn-menu {
+  left: 37%;
+}
+.list> div:nth-child(1){
+  margin-top: -40px;
+}
+button{
+  font-size: 0.50em;
+}
+footer{
+  padding: 15px 15px;
+}
+footer a, footer span{
+  display: inline-block;
+  vertical-align: top;
+}
+footer a{
+  font-size: 0.5em;
+  margin-right: 10px;
+}
+footer span{
+  font-size: 0.625em;
+}
+}
+@media (min-width: 320px) and (max-width: 420px) {
+.menu{
+  width: 55%;
+  margin-left: -55%;
+}
+.click:checked ~ .btn-menu {
+  left: 42%;
+}
+.list> div:nth-child(1){
+  margin-top: -35px;
+}
+button{
+  font-size: 0.3750em;
+}
+footer{
+  padding: 25px 5px 30px 5px;
+}
+footer a{
+  margin-right: 10px;
+}
+footer span{
+  padding-top: 5px;
+  font-size: 0.75em;
+}
+}

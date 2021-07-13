@@ -1,0 +1,53 @@
+/*font-family: "ArialRegular"*/
+@font-face {
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular.eot");
+    src: url("../fonts/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*font-family: "ArialItalic"*/ 
+@font-face {
+    font-family: "ArialItalic";
+    src: url("../fonts/ArialItalic.eot");
+    src: url("../fonts/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialItalic.woff") format("woff"),
+    url("../fonts/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*font-family: "ComfortaaRegular"*/
+@font-face {
+    font-family: "ComfortaaRegular";
+    src: url("../fonts/ComfortaaRegular.eot");
+    src: url("../fonts/ComfortaaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ComfortaaRegular.woff") format("woff"),
+    url("../fonts/ComfortaaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*font-family: "MyriadProRegular"*/
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*font-family: "verdana"*/
+@font-face {
+    font-family: "verdana";
+    src:url("../fonts/Verdana.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*font-family: "bicubik"*/
+@font-face {
+    font-family: "bicubik";
+    src:url("../fonts/Bicubik.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;    
