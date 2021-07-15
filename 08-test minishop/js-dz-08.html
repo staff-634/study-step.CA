@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Домашня робота 08</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header></header>
+    <div id="container"></div>
+    <button onclick="moreClick()">Показати ще 5</button>
+    <button onclick="more2Click()">Наступні 5</button>
+    <div id="cartContainer" onclick="cartClick()"></div>
+    <div id="cartDetail">
+        <div id="cartDtlContainer">
+        	<button onclick="cartClose()" class="qw">X</button>
+        	<p>Кошик</p>
+        	<hr/> 
+        	<p>Сума Вашого замовлення складає: <b id="total"></b>грн.</p>
+    		<button>Оформити замовлення</button>     	      	
+        </div>
+    </div>    
+	<script src="js/cofee.js"></script>
+</body>
+</html>

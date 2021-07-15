@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Домашня робота 13</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>	
+	<form action="#" method="post" name="form" autocomplete="off">
+		<h1>Registration form</h1>
+		<div class="container">
+			<div class="info">
+				<h2><span>Account info</span></h2>
+				<label for="usrname">User name</label>
+				<input type="text" id="usrname" placeholder="User00" title="Максимальна кількість символів 18" maxlength="18" required>
+				<label for="passOne">
+					<b id="capital">P</b>
+					<i id="length">assw</i>
+					<b id="number">0</b>
+					<i id="letter">rd</i>
+				</label>
+				<input type="password" id="passOne" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Пароль повинен складатися не менш як з 8 символів та містити не менше одного числа, однієї літери у верхньому та нижньому регістрі" placeholder="********" required>
+				<label for="passCnf">Confirm password</label>
+				<input type="password" id="passCnf" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="********" required>
+				<input type="button" onClick="binGo()" value="check">
+			</div>
+			<div class="info">
+				<h2><span>Personal info</span></h2>
+				<input type="text" placeholder="First name" title="Максимальна кількість символів 18" maxlength="18" required>
+				<input type="text" placeholder="Last name" title="Максимальна кількість символів 18" maxlength="18" required>
+				<select required name="gender" size="1" required>
+					<option selected="1"></option>
+					<option>Male</option>
+					<option>Female</option>
+					<option>Non-binary</option>						
+				</select>				
+				<input type="date" placeholder="mm/dd/yyyy" required>
+			</div>
+			<div class="info">
+				<h2><span>Foto</span></h2>
+ 				<img id="imgFoto"><br>	
+				<input type="file" onChange="preview_2(this)" required>
+			</div>	
+			<div class="info">
+				<h2><span>Education info</span></h2>
+				<ul id="lstEdu"></ul>
+    			<input type="button" id="addEdu" value="add">
+			</div>
+			<div class="info">,
+				<h2><span>Contact info</span></h2>
+				<ul>
+					<li>Country: <input type="text" placeholder="Ukraine" title="Максимальна кількість символів 18" maxlength="18" required></li>
+					<li>Postal code: <input type="text" onkeydown="return checkPostalCode(event.key)"placeholder="54000" maxlength="6" required></li>
+					<li>Address: <input type="text" placeholder="Soborna street 15" title="Максимальна кількість символів 18" maxlength="18" required></li>
+					<li>City: <input type="text" placeholder="Mykolaiv" title="Максимальна кількість символів 18" maxlength="18" required></li>
+					<li>State/Region: <input type="text" placeholder="Mykolaiv oblast" title="Максимальна кількість символів 18" maxlength="18" required></li>
+					<li>Telephone number: <input onkeydown="return checkPhoneKey(event.key)" type="tel" placeholder="+38(051)-200-00-00" maxlength="18" required></li>
+					<li>Email address: <input type="email" placeholder="username@mail.com" required></li>	
+				</ul>
+			</div>
+			<div class="info">
+				<h2><span>About you</span></h2>
+				<textarea  id="txtAr" onekeyup="count()" rows="5" maxlength="300" required></textarea>
+				<i>100/300</i>
+				<b id="cnt"></b>
+			</div>
+			<div class="info">
+				<h2><span>Confirm</span></h2>						
+				<input type="checkbox" unchecked>I want to receive news and specials offers</input></br>
+				<input type="checkbox" unchecked required>I agree with the Terms and Conditions</input></br>
+				<center><button type="submit">SEND</button></center>
+			</div>
+		</div>			
+	</form>		
+	<script src="js/cofee.js"></script>
+</body>
+</html>
+
+
+
+
+
